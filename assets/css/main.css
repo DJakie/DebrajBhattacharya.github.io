@@ -2062,7 +2062,7 @@ input, select, textarea {
 		}
 
 		.image.thumb {
-			text-align: center;
+			text-align: center;			
 		}
 
 			.image.thumb:after {
@@ -2126,7 +2126,7 @@ input, select, textarea {
 		.image.fit {
 			display: block;
 			margin: 0 0 2em 0;
-			width: 100%;
+			width: 100%;			
 		}
 
 			.image.fit img {
@@ -3219,3 +3219,10 @@ input, select, textarea {
 			}
 
 	}
+
+/* Tompi Special */
+
+.object-fit{
+	aspect-ratio: 16/9;
+	object-fit: cover;
+}
